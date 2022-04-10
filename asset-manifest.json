@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dish-adder/static/css/main.f0195e8f.css",
+    "main.js": "/dish-adder/static/js/main.b19f2954.js",
+    "static/media/pizza-background.jpg": "/dish-adder/static/media/pizza-background.2e7289b88452881ecad6.jpg",
+    "index.html": "/dish-adder/index.html",
+    "main.f0195e8f.css.map": "/dish-adder/static/css/main.f0195e8f.css.map",
+    "main.b19f2954.js.map": "/dish-adder/static/js/main.b19f2954.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0195e8f.css",
+    "static/js/main.b19f2954.js"
+  ]
+}
