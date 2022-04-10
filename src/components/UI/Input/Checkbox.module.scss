@@ -1,0 +1,40 @@
+@import '../../../assets/scss/colors';
+
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	height: 50px;
+	margin: 20px;
+
+	.label {
+		color: $labelColor;
+	}
+
+	.checkbox {
+		cursor: pointer;
+		margin-left: 35px;
+
+
+		.name {
+			position: relative;
+			padding: 10px 10px 10px 20px;
+			left: 0;
+			top: 0;
+			color: $labelColor;
+			font-size: 14px;
+			font-weight: bold;
+			cursor: inherit;
+		}
+
+		.input {
+			cursor: inherit;
+		}
+	}
+}
+
+.error {
+	border-color: $errorColor;
+}

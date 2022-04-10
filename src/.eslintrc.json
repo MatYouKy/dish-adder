@@ -1,0 +1,56 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": ["airbnb", "plugin:import/typescript", "plugin:jsx-a11y/recommended", "plugin:prettier/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "@typescript-eslint", "prettier","unused-imports"],
+	"rules": {
+		"import/prefer-default-export": "off",
+		"import/no-extraneous-dependencies": [
+			"error",
+			{ "devDependencies": false, "optionalDependencies": false, "peerDependencies": false }
+		],
+		"jsx-a11y/control-has-associated-label": "off",
+		"react/jsx-props-no-spreading": "off",
+		"camelcase": "off",
+		"jsx-a11y/label-has-associated-control": "off",
+		"react/function-component-definition": "off",
+		"react-hooks/exhaustive-deps": "off",
+		"react-hooks/rules-of-hooks": "off",
+		"unused-imports/no-unused-imports-ts": "off",
+		"unused-imports/no-unused-imports": "error",
+		"no-use-before-define": "off",
+		"@typescript-eslint/no-use-before-define": ["error"],
+		"react/jsx-filename-extension": ["warn", { "extensions": [".tsx", ".scss", ".mp3"] }],
+		"no-shadow": "off",
+		"default-param-last": "off",
+		"@typescript-eslint/no-shadow": ["error"],
+		"react/react-in-jsx-scope": "off",
+		"no-plusplus": "off",
+		"dot-notation": "off",
+		"import/extensions": [
+			"error",
+			"ignorePackages",
+			{
+				"ts": "never",
+				"tsx": "never"
+			}
+		]
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".jsx", ".ts", ".tsx"]
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+@import '../../../assets/scss/colors';
+
+.container {
+	position: relative;
+	display: block;
+	margin: 20px;
+	height: 70px;
+}
+
+.label {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: $labelColor;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.input {
+	position: absolute;
+	left: 0;
+	top: 30px;
+	width: 100%;
+	padding: 40px;
+	border-radius: 6px;
+	padding: 10px 5px;
+	font-size: 16px;
+	color: $darkGray;
+	margin: 0 auto;
+}
+
+.select {
+	position: absolute;
+	left: 0;
+	top: 30px;
+	width: 100%;
+	padding: 40px;
+	border-radius: 6px;
+	padding: 10px 5px;
+	font-size: 16px;
+	color: $darkGray;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.error {
+	border-color: $errorColor;
+}

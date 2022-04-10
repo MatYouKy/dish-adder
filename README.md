@@ -1,44 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Dish-Adder [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#Contributors)
 
-## Available Scripts
+# Introduction 
 
-In the project directory, you can run:
+Panel for adding a new dish. after selecting the type of dish, a panel of additional properties opens. To correctly send data, each input must be touched and must meet the validation requirements. The panel has been secured in the event of an attempt to send the form without a validated value.
+The operation of the panel can be seen on: https://github.com/MatYouKy.
 
-### `npm start`
+# Requirements 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This module requires no modules outsid.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Configuration
 
-### `npm test`
+The module has no menu or modifiable settings. There is no configuration.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Technologies
 
-### `npm run build`
+- React
+- React Hooks
+- Redux
+- Typescript
+- SCSS
+- Eslint
+- Prettier
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Installation and Setup Instructions
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Clone down this repository. You will need node and npm installed globally on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installation:  
+`npm install`
 
-### `npm run eject`
+To Start Server:  
+`npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To Visit App:  
+`localhost:3000/`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Contributors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/MatYouKy"><img src='https://avatars.githubusercontent.com/u/76663651?v=4' width='96px' height='96px'/></a>
