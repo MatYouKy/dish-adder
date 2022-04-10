@@ -3,7 +3,7 @@
 # Introduction 
 
 Panel for adding a new dish. after selecting the type of dish, a panel of additional properties opens. To correctly send data, each input must be touched and must meet the validation requirements. The panel has been secured in the event of an attempt to send the form without a validated value.
-The operation of the panel can be seen on: https://github.com/MatYouKy.
+The operation of the panel can be seen on: https://matyouky.github.io/dish-adder .
 
 # Requirements 
 
